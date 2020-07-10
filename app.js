@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 const mongoose = require('mongoose');
-require('dotenv/config');
+require('dotenv/config'); 
 
 //Import route
 const postsRoute = require('./routes/posts');
